@@ -1,0 +1,19 @@
+{
+  "name": "intermix-nova-cluster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tarun Kumar Sukhu",
+  "license": "MIT",
+  "dependencies": {
+    "ara-cli": "^1.0.0-alpha.4",
+    "cross-env": "^7.0.2"
+  },
+  "engines": {
+    "yarn": "1.x",
+    "node": "12.16.x"
+  },
+  "scripts": {
+    "cluster": "cross-env PORT=8001 ara run:cluster --config ./views.json",
+    "start": "ara run:cluster --config ./views.json"
+  }
+}

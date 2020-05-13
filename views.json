@@ -1,0 +1,8 @@
+{
+  "SvelteNovaMFE": {
+    "server": "https://svelte-nova-service.herokuapp.com/batch"
+  },
+  "VueNovaMFE": {
+    "server": "https://vue-nova-server.herokuapp.com/batch"
+  }
+}
